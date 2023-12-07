@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your User-Friendly Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.5s;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #66c2ff;
+        }
+
+        section {
+            padding: 80px 20px;
+            text-align: center;
+            transition: background-color 0.5s;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fadeIn {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="your-photo.jpg" alt="Your Photo">
+        <h1>Md Aman</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">My Projects</a>
+    </nav>
+
+    <section id="home" class="fadeIn">
+        <h2>Welcome to My Website</h2>
+        <p>This is a user-friendly website with a photo, navigation, and animations.</p>
+    </section>
+
+    <section id="about" class="fadeIn">
+        <h2>About Me</h2>
+        <p>Hi, I'm Md Aman. I am a passionate web developer with a focus on front-end technologies.</p>
+    </section>
+
+    <section id="projects" class="fadeIn">
+        <h2>My Projects</h2>
+        <div>
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+        </div>
+        <div>
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section>
+
+    <footer>
+        <p>Contact me at: mdaman9939@gmail.com</p>
+    </footer>
+
+</body>
+</html>
